@@ -3,6 +3,10 @@
 	height:70px;
 }
 
+button {
+	cursor: pointer;
+}
+
 #logo {
 	height:70px;
 	float: left;
