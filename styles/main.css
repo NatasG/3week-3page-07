@@ -1,3 +1,7 @@
+body {
+	background-color: #fcf9f4;
+}
+
 .header {
 	position: relative;
 	height:70px;
@@ -10,16 +14,23 @@ button {
 #logo {
 	height:70px;
 	float: left;
-	margin-left: 200px;
+	margin-left: 150px;
+}
+
+.title {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .header .menu {
 	list-style-type: none;
+	margin: 0;
+	border-left: 1px solid rgb(222,220,215);
+	border-right: 1px solid rgb(222,220,215);
 }
 
 .header .menu li {
 	float: left;
-	margin-top: 20px;
+	margin-top: 25px;
 	margin-left: 25px;
 	margin-right: 25px;
 }
@@ -37,17 +48,35 @@ button {
 	color: grey;
 }
 
+.sign-left {
+	float: left;
+	margin-left: 50px;
+  height: 70px;
+  border-right: 1px solid rgb(222,220,215);
+}
+
+.sign-right {
+	float: left;
+	margin-right: 50px;
+  height: 70px;
+  border-right: 1px solid rgb(222,220,215);
+}
+
 #donate {
-	margin-top: 13px;
-	border: 1px solid black;
+	margin-top: 18px;
+	border: 1px solid rgb(222,220,215);
 	padding:7px 30px;
-	background-color: white;
+	background-color: #fcf9f4;
+	border-radius: 4px;
+	font-size: 14px;
 }
 
 #section1 {
 	position: relative;
 	height: 576px;
 	background-image: url("../images/hero.png");
+	background-repeat:no-repeat;
+	background-size:cover;
 	color: white;
 }
 
@@ -57,7 +86,7 @@ button {
 }
 
 #section1 .content span{
-	font-size: 36px;
+	font-size: 48px;
 }
 
 #section1 .btn-group {
@@ -266,7 +295,6 @@ button {
 #section6 {
 	position: relative;
 	height: 610px;
-	background-color: white;
 	text-align: center;
 }
 
