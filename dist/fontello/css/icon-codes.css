@@ -1,0 +1,6 @@
+
+.icon-home:before { content: '\e800'; } /* '' */
+.icon-tags:before { content: '\e801'; } /* '' */
+.icon-tag:before { content: '\e802'; } /* '' */
+.icon-calendar:before { content: '\e803'; } /* '' */
+.icon-box:before { content: '\f187'; } /* '' */

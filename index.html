@@ -1,200 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 
 <head>
-  <title>3w3p homework2</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="icon/iconfont.css">
-  <link rel="stylesheet" href="styles/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>natasg的个人博客</title>
+  <link rel="stylesheet" href="dist/normalize.css">
+  <link rel="stylesheet" href="dist/app.css">
+  <link rel="stylesheet" href="dist/fontello/css/icon.css">
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <img src="images/logo.png" alt="logo" class="logo" />
-      <div class="menu">
+  <header>
+    <div class="header-inner">
+      <h1 class="title">natasg的个人博客</h1>
       <nav>
-        <ul>
-          <li>
-            <span class="icon iconfont icon-spoon"></span>
-            <a href="javascript:;">
-                Tastemakers
-            </a>
-          </li>
-          <li>
-            <span class="icon iconfont icon-blog"></span>
-            <a href="javascript:;">
-                Blog
-            </a>
-          </li>
-          <li>
-            <span class="icon iconfont icon-alist"></span>
-            <a href="javascript:;">
-                The A-List
-            </a>
-          </li>
-          <li>
-            <span class="icon iconfont icon-contribute"></span>
-            <a href="javascript:;">
-                Contribute
-            </a>
-          </li>
-          <li>
-            <span class="icon iconfont icon-about"></span>
-            <a href="javascript:;">
-                About
-            </a>
-          </li>
+        <ul class="menu">
+          <li class="menu-item"><a href=""><span class="icon-home"></span>首页</a></li>
+          <li class="menu-item"><a href=""><span class="icon-box"></span>归档</a></li>
+          <li class="menu-item"><a href=""><span class="icon-tags"></span>标签</a></li>
         </ul>
       </nav>
-      <div class="join">
-        <h6>
-          LATEST TWEET
-        </h6>
-        <button class="btn-join">
-            <span class="icon iconfont icon-twittericon"></span>
-          Join the Conversation
-        </button>
-        <h6>LET'S BE FRIENDS!</h6>
-        <p>
-          For weekly finds,community
-          recommendations,and more,
-          like us on Facebook.
-        </p>
-        <button class="btn-join">
-          <span class="icon iconfont icon-facebook"></span>
-          Join the Community
-        </button>
-      </div>
     </div>
-    </header>
+  </header>
+  <div class="container">
     <div class="main">
-      <div class="header-photo">
-        <div class="photo">
-          <img src="images/foodsense.jpg" alt="foodsense" />
-          <ul>
-            <li>
-              <a href="javascript:;">
-                <p class="menu-name">Tastemakers</p>
-                <p class="menu-desc">Feast your eyes & get receipes!</p>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;">
-                <p class="menu-name">Blog</p>
-                <p class="menu-desc">News,how tos,stoies,and more</p>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;">
-                <p class="menu-name">The A-List</p>
-                <p class="menu-desc">Handpicked,absolute favorites</p>
-              </a>
-            </li>
-            <li>
-              <a href="javascript:;">
-                <p class="menu-name">Contribute</p>
-                <p class="menu-desc">We want hear from you</p>
-              </a>
-            </li>
-          </ul>
+      <div class="article">
+        <div class="title-inner">
+          <h2 class="article-title">烤鸡的做法</h2>
+          <div class="date">
+            <p><span class="icon-calendar"></span>发表于2017-09-25</p>
+          </div>
         </div>
-        <div class="subscribe">
-          <div class="subscribe-mail">
-            <span class="icon iconfont icon-mail"></span>
-            <p>
-              Sign up for our  newsletter to receive a handpicked selection of the best
-              stories, recipes, and news, delivered weekly to you inbox.
-            </p>
+        <p>鲜嫩的鸡肉，酥香的鸡皮，咬上一口满口留香。绵绵的土豆和胡萝卜吸满了鸡肉味道特别好吃。这道美味的烤鸡是一道家庭聚会的主打菜，做法简单，味道鲜美浓郁，是一道厨房新手展示厨艺的健康菜。</p>
+        <div class="article-bottom">
+          <div class="tag">
+            <span class="tag-icon"></span>
+            <ul class="tag-list">
+              <span class="icon-tags"></span>
+              <li><span class="label label-blue">美容</span></li>
+              <li><span class="label label-red">消食</span></li>
+            </ul>
           </div>
-          <div class="subscribe-btn">
-            <input type="email" placeholder="Email" />
-            <button>Subscribe</button>
-          </div>
-
+          <a class="btn" href="">more>></a>
         </div>
       </div>
-      <div class="content">
-        <div class="food-item">
-          <img src="images/1.jpg" alt="1" />
-          <h4>2012's best Summer Cookbooks</h4>
-          <p>
-            With the best of the season coming from
-            "orchards,farms and gardens," NPR has put
-            together an impressive collection of 10 summer
-            cookbooks.
-          </p>
-          <p>
-            <span class="date">May 23,2012 /</span>
-            <a href="read">Read >></a>
-          </p>
+
+      <div class="article">
+        <div class="title-inner">
+          <h2 class="article-title">毕业生改派户口流程</h2>
+          <div class="date">
+            <i class="icon-left"></i>
+            <p><span class="icon-calendar"></span>发表于2017-08-03</p>
+            <i class="icon-right"></i>
+          </div>
         </div>
-        <div class="food-item">
-          <img src="images/2.jpg" alt="2" />
-          <h4>How to Make Vegetables Chips</h4>
-          <p>
-            About a month ago,I ate
-            almost an entire box of
-            kale chips.My brother
-            and I were visiting our
-            cousin inBrooklyn, and
-            before a very
-            thoughtfully prepared
-            vegan...
-          </p>
-          <p>
-            <span class="date">May 17,2012 /</span>
-            <a href="read">Read >></a>
-          </p>
+        <p>本人12年毕业于西安，后去杭州参加工作，户口和档案也就落在杭州。14年年初，离开杭州回西安工作， 开始办理户口和档案调转事宜，谈起个中艰辛，焦头烂额。现在打算把整个流程写出来，供其他类似经历朋友们参考， 让大家少走冤枉路~~~ 第一步：回学校申请改派证。其实就是重发一张毕业时候的派遣证。 所需手续：1. ...</p>
+        <div class="article-bottom">
+          <div class="tag">
+            <span class="tag-icon"></span>
+            <ul class="tag-list">
+              <li><span class="label label-blue">毕业生</span></li>
+            </ul>
+          </div>
+          <a class="btn" href="">more>></a>
         </div>
-        <div class="food-item">
-          <img src="images/3.jpg" alt="2" />
-          <h4>Join us on Pinterest!</h4>
-          <p>
-            If I could curate a cookbook for you,this
-            would be it.
-          </p>
-          <p>
-            <span class="date">May 16,2012 /</span>
-            <a href="read">Read >></a>
-          </p>
+      </div>
+
+      <div class="article">
+        <div class="title-inner">
+          <h2 class="article-title">毕业生改派户口流程</h2>
+          <div class="date">
+            <i class="icon-left"></i>
+            <p><span class="icon-calendar"></span>发表于2017-08-03</p>
+            <i class="icon-right"></i>
+          </div>
         </div>
-        <div class="food-item">
-          <img src="images/4.jpg" alt="2" />
-          <h4>Recipes from a Sunday Supper</h4>
-          <p>
-            I could not figure out
-            what to do with the
-            delectable slices of Pear
-            Cake that I brought home
-            from this wonderful
-            Sunday supper-eat them
-            slowly, a little bit at...
-          </p>
-          <p>
-            <span class="date">May 15,2012 /</span>
-            <a href="read">Read >></a>
-          </p>
+        <p>本人12年毕业于西安，后去杭州参加工作，户口和档案也就落在杭州。14年年初，离开杭州回西安工作， 开始办理户口和档案调转事宜，谈起个中艰辛，焦头烂额。现在打算把整个流程写出来，供其他类似经历朋友们参考， 让大家少走冤枉路~~~ 第一步：回学校申请改派证。其实就是重发一张毕业时候的派遣证。 所需手续：1. ...</p>
+        <div class="article-bottom">
+          <div class="tag">
+            <span class="tag-icon"></span>
+            <ul class="tag-list">
+              <li><span class="label label-blue">毕业生</span></li>
+              <li><span class="label label-green">户口</span></li>
+              <li><span class="label lable-yellow">西安</span></li>
+            </ul>
+          </div>
+          <a class="btn" href="">more>></a>
         </div>
       </div>
     </div>
+    <div class="sub-header">
+        <img class="user-pic" src="img/userPic.JPG" alt="picture">
+        <p class="user-name">natasg</p>
+        <p class="user-describe">我好饿，想吃肉,今晚注定是一个不眠之夜</p>
+        <nav>
+          <ul class="sub-menu">
+
+            <li class="sub-menu-item"><a href=""><span class="icon-tag"></span>烤鸡</a></li>
+            <li class="sub-menu-item"><a href=""><span class="icon-tag"></span>豆皮涮牛肚</a></li>
+            <li class="sub-menu-item"><a href=""><span class="icon-tag"></span>酸汤肥牛</a></li>
+          </ul>
+        </nav>
+
+    </div>
+
+
   </div>
   <footer>
-    <div class="left">
-    <ul>
-      <li><a href="javascript:;">Privacy Policy</a></li>
-      <li><a href="javascript:;">Terms of Use</a></li>
-      <li><a href="javascript:;">Contact</a></li>
-    </ul>
-    <p>
-      &copy; 2017 Food Sense, all rights reserved.
-    </p>
-    </div>
-    <div class="right">
-      <span class="icon iconfont icon-twittericon"></span>
-      <span class="icon iconfont icon-facebook"></span>
-      <span class="icon iconfont icon-sdfsdf"></span>
+    <div class="footer-copyright">
+      <span>&copy; 2017 natasg</span>
     </div>
   </footer>
 </body>
