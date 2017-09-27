@@ -179,6 +179,12 @@ ul {
 .label-red {
   background: #f44336; }
 
+.label-yellow {
+  background: #c47f3e; }
+
+.label-grey {
+  background: #9e9e9e; }
+
 @media only screen and (max-width: 480px) {
   header {
     height: 200px; }
